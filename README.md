@@ -1,4 +1,4 @@
-# PASSGEN CHROME EXTENSION
+     # PASSGEN CHROME EXTENSION
 
 **PassGen** is a powerful, secure, and offline Chrome Extension for generating unique, cryptographically strong passwords tailored to each of your accounts. With PassGen, your passwords are generated based on a consistent and personalized algorithm, eliminating the need to remember multiple passwords. Your data remains secure and private, as nothing is stored or sent online.
 
@@ -73,11 +73,13 @@ By breaking down the process into these steps, PassGen ensures the creation of s
 
 2. **Navigate to the directory:**:
    ```bash
-cd HackSode24
+   cd HackSode24
 
 3. **Install dependencies:**:
-npm install webpack webpack-cli @pashword/pashword-lib --save-dev
+   ```bash
+   npm install webpack webpack-cli @pashword/pashword-lib --save-dev
 
-4. **Run the extension::**:
-npx webpack
+5. **Run the extension::**:
+   ```bash
+   npx webpack
 
