@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <title>Pashword Generator</title>
+    <style>
+        input, button { margin-top: 10px; width: 100%; }
+    </style> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js1.js">     
+    </script>
+
+</head>
+<!-- <body>
+    <h1>Password Generator</h1>
+    <input id="webdomain" type="text" placeholder="Web Domain">
+    <input id="username" type="text" placeholder="Username">
+    <input id="secretkey" type="password" placeholder="Secret Key">
+    <button id="generate">Generate Password</button>
+    <input id="result" type="text" placeholder="Generated Password" readonly>
+    <script src="popup.js"></script>
+</body> -->
+
+<body>
+    <div class="container">
+        <h1 class="title">PassGen</h1>
+        <p class="subtitle">Passwords done right</p>
+
+        <form id="password-generator-form">
+            <div class="input-group">
+                <label for="website">Website</label>
+                <input type="text" id="webdomain" placeholder="Example: reddit.com, forum.zorin.com">
+            </div>
+
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Example: nayam_amarsh">
+            </div>
+
+            <div class="input-group">
+                <label for="secretKey">Secret Key</label>
+                <input type="password" id="secretkey" placeholder="Example: JimmyNeutron10$">
+                <!-- <button type="button" class="show-password" onclick="togglePassword()"></button> -->
+            </div>
+
+            <button type="button" class="generate-btn" id="generate">Generate Password</button>
+
+            <div class="input-group">
+                <input id="result" type="text" placeholder="Generated Password" readonly>
+            </div>
+            <script  src="dist/popup.bundle.js"></script>
+            <!-- <script src="popup.js"></script> -->
+
+
+
+            
+            <button type="button" class="autofill-btn" id="autofill-btn">Autofill</button>
+        </form>
+    </div>
+
+   
+</body>
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #373F51, #1B1F2E);
+    color: #D8DBE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    background: rgba(216, 219, 226, 0.05);
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    margin: 10px; /* Adds visible margin around the container */
+
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #D8DBE2;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #A8ADB8;
+    margin-bottom: 2rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    color: #A8ADB8;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(216, 219, 226, 0.1);
+    color: #D8DBE2;
+    font-size: 1rem;
+}
+
+.input-group input::placeholder {
+    color: #A8ADB8;
+}
+
+.show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #A8ADB8;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.generate-btn, .autofill-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #D8DBE2;
+    background-color: #5A6175;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background 0.3s;
+}
+
+.generate-btn:hover, .autofill-btn:hover {
+    background-color: #444B5E;
+}
+
+.scroll-text {
+    font-size: 0.9rem;
+    color: #A8ADB8;
+    margin-top: 2rem;
+}
