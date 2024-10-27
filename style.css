@@ -12,13 +12,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow: hidden; /* Prevents the body from scrolling */
 }
 
 .container {
     text-align: center;
     max-width: 400px;
+    max-height: calc(100vh - 20px);
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     background: rgba(216, 219, 226, 0.05);
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
@@ -99,4 +101,10 @@ body {
     font-size: 0.9rem;
     color: #A8ADB8;
     margin-top: 2rem;
+}
+
+/* placholder */
+::-webkit-input-placeholder {
+    color: #A8ADB8;
+    font-size: small;
 }
