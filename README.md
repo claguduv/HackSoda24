@@ -1,6 +1,6 @@
 ## PASSGEN CHROME EXTENSION
 
-**PassGen** is a powerful, secure, and offline Chrome Extension for generating unique, cryptographically strong passwords tailored to each of your accounts. With PassGen, your passwords are generated based on a consistent and personalized algorithm, eliminating the need to remember multiple passwords. Your data remains secure and private, as nothing is stored or sent online.
+**PassGen** is a powerful, secure, and offline Chrome Extension for generating unique, cryptographically strong passwords tailored to each of your accounts. With PassGen, your passwords are generated based on a consistent and personalized algorithm, eliminating the need to remember multiple passwords. Your data remains secure and private since nothing is stored or sent online.
 
 ---
 
